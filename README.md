@@ -1,4 +1,3 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=16543771)
 Project 2: Thread Scheduler
 ======================
 
@@ -311,24 +310,6 @@ Analyze the data:
 
     Create a report analizing the results visualized in the graphs, How does the size of the queue and time slice affect the processes execution? How does it relate to the scenarios we've seen in class? Comment on the best combination of QUEUE_SIZE and TIME_SLICE for each scheduler and how would you implement a simulation that uses more than 1 CPU, how would it affect performance?  
 
-
-# 6. SUBMISSION 1 (Scheduler implementation)
-
-1. Complete all parts of Step 4 and have the most recent version of the program on GitHub
-2. Submit in BB a picture of your program running make test in Codespaces.
-5. The automatic tests check for general organization, but they do not ensure the program works. 
-  Instead you can test for correctness by:
-    1. Making sure a process may not execute if a scheduler is running. Add some big sleep inside the critical section of your schedulers, no processes should begin execution.
-    2. Comparing your Graphs with mine. They are not going to be equal, but
-        you can tell when the program is incorrect, if it differs by a lot of every process.
-    3. Test on a smaller processes.txt file, you can remove ~490 processes from the file and Test
-        with only 10 or so. You can manually calculate what should be their turn around and wait times based on when they arrived, and completed execution.
-
-# 7. SUBMISSION 2 (Questions and Graphs)
-
-1. Complete all questions in Step 5 and commit your answers
-2. Submit in BB a graph of the turnaround times of every process. Like the one shown in BB.
-4. Submit in BB a graph of the Wait Times of every process. Like the one shown in BB.
-3. Submit in BB your analysis report."# Multi-threading" 
-#   M u l t i - t h r e a d i n g  
+#   M u l t i - t h r e a d i n g 
+ 
  
